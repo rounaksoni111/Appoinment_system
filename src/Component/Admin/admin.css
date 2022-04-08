@@ -1,0 +1,128 @@
+.Login {
+    width : 100%;
+    height: 440px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.LoginForm {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2%;
+}
+
+.LoginForm input{
+    margin : 10px;
+    width: 400px;
+    height: 30px;
+    font-size: 15px;
+}
+
+.LoginForm button:hover{
+    cursor: pointer;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.loginbtn {
+    margin-top: 3%;
+    margin-left: 2%;
+    width: 400px;
+    height: 30px;
+}
+
+#Table {
+    text-align: center;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    border: 3px solid #ddd;
+    
+    margin-left: 7%;
+  }
+
+
+  #Table td, #Table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  } 
+
+  #Table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #4CAF50;
+    color: white;
+  }
+
+#Table tr:nth-child(even){background-color: #f2f2f2;}
+
+#Table tr:hover {background-color: #ddd;}
+
+
+
+.usertbl {
+    margin-left: 40%;
+}
+
+.usertbll {
+  margin-left: 47px;
+  width: 47%;
+}
+
+.shhowtble{
+  margin-top: 2%;
+}
+
+.userprftbll {
+  width: 20%;
+  margin-left: -43px;
+}
+
+.userprftbl {
+  width: 47%;
+  margin-left: 7%;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  .row1 {
+    margin-left:0px;
+    margin-right:0px;
+  }
+    
+  .column {
+    float: left;
+    
+    padding: 3px;
+  }
+  
+  /* Clearfix (clear floats) */
+  .row1::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+.regbtn {
+    margin-left: 85%;
+    width: 15%;
+    height: 30px;
+    margin-top: 6px;
+    margin-bottom: -15px;
+}
+
+.appoi {
+  height: 19px;
+  font-size: 11px;
+  width: 50px;
+}

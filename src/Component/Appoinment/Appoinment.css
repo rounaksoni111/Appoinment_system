@@ -1,0 +1,155 @@
+.heading {
+    margin-left: 40%;
+    margin-top: 0.5%;
+    font-size: 35px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+/* .loc {
+    margin-left: 15%;
+    font-size: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    
+} */
+
+.fname {
+    margin-top: 6px;  
+    margin-left: 20%;
+    font-size: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.rname {
+    
+    font-size: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.franchise {
+    margin-left: 8%;
+    margin-top: 2%;
+    width: 35%;
+}
+
+.role {
+    margin-top: 2%;
+}
+
+
+
+.Location {
+    margin-left: 20%;
+    width: 300px;
+    height: 50px;
+    margin-top: 1px;
+}
+
+.Role1 {
+    margin-left: 0%;
+    margin-top: 2%;
+    width: 300px;
+    height: 50px;
+}
+
+.dv {
+    display: flex;
+    margin-top: 2%;
+}
+
+.btnn {
+    margin-left: 13%;
+    width: 95px;
+    height: 42px;
+    font-size: 18px;
+    margin-top: 9px;
+}
+
+.errormsg {
+    color: red;
+    margin-left: 110px;
+    margin-top: 2px;
+}
+
+.roleerr {
+    color: red;
+    margin-left: 6px;
+    margin-top: 2px;
+}
+
+/* .table {
+    margin-left: 15%;
+    margin-top: 2%;
+    width: 60%;
+}
+
+.Tableheading{
+    height: 40px;
+    background-color: slategray;
+    border-color:slategray;
+  
+} */
+
+.tablee {
+    text-align: center;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    border: 3px solid #ddd;
+    width: 60%;
+    margin-left: 15%;
+    margin-top: 2%;
+  }
+
+
+  .tablee td, #Tablee th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  } 
+
+  .tablee th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #4CAF50;
+    color: white;
+  }
+
+.tablee tr:nth-child(even){background-color: #f2f2f2;}
+
+.tablee tr:hover {background-color: #ddd;}
+
+
+.edit {
+    margin : 5px;
+    width: 60%;
+    height: 25px;
+    font-size: 12px;
+    background-color: white;
+  }
+  
+  .edit:hover {
+    cursor: pointer;
+  }
+
+
+  .roww {
+    margin-left:0px;
+    margin-right:0px;
+  }
+    
+  .columnn {
+    float: left;
+    padding: 5px;
+    margin-bottom: 1%;
+  }
+  
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+.searchh {
+    margin-top: 60px;
+    margin-left: 47px;
+}
